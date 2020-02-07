@@ -17,7 +17,7 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
+      title: 'History Pembelian',
       url: '/list',
       icon: 'list'
     }
@@ -33,7 +33,7 @@ export class AppComponent {
 
   initializeApp() {
     this.platform.ready().then(() => {
-      this.statusBar.styleDefault();
+      this.statusBar.styleBlackOpaque();
       this.splashScreen.hide();
     });
   }
